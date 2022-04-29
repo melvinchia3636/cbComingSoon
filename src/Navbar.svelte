@@ -82,6 +82,7 @@
     <button
       on:click={() => setNavOpen(!navOpen)}
       class="block md:!hidden relative z-[9999]"
+      aria-label="Toggle navigation"
     >
       <Icon
         icon="heroicons-outline:menu-alt-4"
